@@ -1,0 +1,15 @@
+# Core -- Topics 1-3, 6-8, 11, 12
+anthropic
+pydantic
+
+# Vector memory / RAG -- Topics 4-5
+chromadb
+sentence-transformers
+
+# MCP -- Topic 9
+mcp[cli]
+
+# LangGraph + LangChain -- Topic 10
+langgraph
+langchain
+langchain-anthropic
