@@ -11,7 +11,7 @@ client = anthropic.Anthropic()
 
 # Step 2: Build a tiny knowledge base (vector store) with 3 documents.
 db = chromadb.Client()
-kb = db.create_collection("kb")
+kb = db.create_collection("knowledge_base")   # name must be >=3 chars (chromadb rule)
 kb.add(
     ids=["d1", "d2", "d3"],
     documents=[
